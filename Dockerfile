@@ -1,5 +1,5 @@
-FROM python:3.7-buster
-LABEL author="Simon Sorensen (hello@simse.io)"
+FROM python:3.9.23-bullseye
+LABEL author="Alex Chen & Simon Sorensen (hello@simse.io)"
 
 # Set timezone to Greenwich Mean Time
 ENV TZ=GMT
