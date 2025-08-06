@@ -34,6 +34,7 @@ ENV CHRONOS=yes_sir_docker
 
 # Install Python dependencies
 WORKDIR /app/chronos
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r requirements.txt
 
 ENTRYPOINT python chronos.py
