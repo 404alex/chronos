@@ -12,7 +12,7 @@ A small Docker container to run and schedule Python scripts
 Built on top of simsemand's work. This image now support python 3.9. No new features added.
 
 ## About
-Chronos is a simple application to execute Python scripts in response to certain events. Each script will be assigned a virtual environment and folder, allowing Pip dependencies to be installed with conflicting with other scripts. The current Python version is 3.7.
+Chronos is a simple application to execute Python scripts in response to certain events. Each script will be assigned a virtual environment and folder, allowing Pip dependencies to be installed with conflicting with other scripts. The current Python version is ~3.7~ 3.9.
 
 Chronos is not intended for larger Python scripts that are meant to run forever, or listen on ports (yet!).
 
