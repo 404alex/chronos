@@ -1,4 +1,4 @@
-FROM python:3.9.23-bullseye
+FROM python:3.10-bullseye
 LABEL author="Alex Chen & Simon Sorensen (hello@simse.io)"
 
 # Set timezone to Greenwich Mean Time
